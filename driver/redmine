@@ -1,32 +1,18 @@
 Obtain the driver ko from the corresponding directory
 
-6.1 kernel base on:
+6.1.84 kernel base on:
 
 
-commit b2335985e1dcd14b76526861e88c07618c918c43 (rk/develop-6.1, m/master)
-Author: Sugar Zhang <sugar.zhang@rock-chips.com>
-Date:   Tue Jun 18 19:24:30 2024 +0800
+commit 095e362a8eb1948abd4ac62bd9b569e512a994f8 (origin/develop-6.1)
+Author: Luo Wei <lw@rock-chips.com>
+Date:   Fri Sep 27 16:37:44 2024 +0800
 
-    ASoC: rockchip: sai: Add support for more SoCs
+    arm64: dts: rockchip: rk3576-vehicle-evb: close usb otg 5v default
 
-    VERSION >= SAI_VER_2311
+    Signed-off-by: Luo Wei <lw@rock-chips.com>
+    Change-Id: I5360e4609e54359eadfaa39f74409106293e18d4
 
-    Support Frame Sync xN (FSXN)
-    Support Frame Sync Error Detect (FSE)
-    Support Frame Sync Lost Detect (FSLOST)
-    Support Force Clear (FCR)
-    Support SAIn-Chained (e.g. SAI0-CLK-DATA + SAI3-DATA +...)
-    Support Transmit Auto Gate Mode
-    Support Timing Shift Left for TX
 
-    Optimize SCLK/FSYNC Timing Alignment
-
-    VERSION >= SAI_VER_2403
-
-    Support Loopback LR Select (e.g. L:MIC R:LP)
-
-    Signed-off-by: Sugar Zhang <sugar.zhang@rock-chips.com>
-    Change-Id: I9c957b5115686df2573a06b9276f26a15e709d4e
 
 5.10 kernel base on:
 
